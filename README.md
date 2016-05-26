@@ -12,7 +12,7 @@ Family.scss is a set of **20** smart Sass mixins which will help you to manage t
 Input :
 ```scss
 ul li {
-  background: blue;
+  background: red;
 
   @include first(3) {
     background: red
@@ -23,7 +23,7 @@ ul li {
 Output :
 ```sass
 ul li {
-  background: blue;
+  background: red;
 }
 ul li:nth-child(-n + 3) {
   background: red;

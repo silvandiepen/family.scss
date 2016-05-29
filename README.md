@@ -21,7 +21,7 @@ Family.scss on [npm](https://www.npmjs.com/package/family.scss)
 Input :
 ```scss
 ul li {
-  background: blue;
+  background: red;
 
   @include first(3) {
     background: blue;
@@ -32,7 +32,7 @@ ul li {
 Output :
 ```sass
 ul li {
-  background: blue;
+  background: red;
 }
 ul li:nth-child(-n + 3) {
   background: blue;

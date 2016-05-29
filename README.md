@@ -24,7 +24,7 @@ ul li {
   background: red;
 
   @include first(3) {
-    background: blue;
+    background: red;
   }
 }
 ```
@@ -35,7 +35,7 @@ ul li {
   background: red;
 }
 ul li:nth-child(-n + 3) {
-  background: blue;
+  background: red;
 }
 
 ```
